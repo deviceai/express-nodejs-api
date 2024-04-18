@@ -13,6 +13,6 @@ CMD ["node", "index.js"]
 # 
 # docker build -t deviceai5554/node-api .
 # docker images
-# docker run --name node-api -p 3000:3000 -d deviceai5554/node-api
+# docker run --name node-api --restart=on-failure -p 3001:3000 -d deviceai5554/node-api
 # docker ps
 # docker stop d45gty67hg
